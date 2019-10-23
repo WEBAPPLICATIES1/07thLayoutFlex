@@ -1,0 +1,38 @@
+/* Basic styling */
+* {
+  box-sizing: border-box;
+}
+
+/* Some default styles to make each box visible */
+.box {
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Colours for each box */
+.box1 {
+  background: darkorange;
+}
+.box2 {
+  background: green;
+}
+.box3 {
+  background: blue;
+}
+.box4 {
+  background: red;
+}
+.box5 {
+  background: darkmagenta;
+}
+
+/* onze flexcontainer */
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+  flex-direction: row;
+  /* height: 100vh; */
+  flex-wrap: nowrap;
+}
